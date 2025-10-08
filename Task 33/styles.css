@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e6f3ff; /* A light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.security-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.security-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 350px;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-header i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #4682b4; /* Dark blue color for the icons */
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.check-icon {
+    color: #5cb85c; /* A green color for the checkmark icons */
+    margin-right: 10px;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+    .security-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,22 @@
+body{
+    justify-content: center;
+    align-items: center;
+    
+    background:#e6f3ff ;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+    
+}
+.card{
+    
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: white;
+ } 
