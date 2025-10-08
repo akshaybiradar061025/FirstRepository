@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card-image-section {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfcfa;
+    padding: 20px;
+}
+
+.card-overlay-shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%; /* Makes all shapes circles initially */
+}
+
+/* Shape 1: Large orange shape in the top right */
+.shape-1 {
+    width: 250px;
+    height: 250px;
+    background: #ffae42; /* A shade of orange */
+    top: -50px;
+    right: -50px;
+    transform: rotate(-30deg); /* Tilt it slightly */
+}
+
+/* Shape 2: Smaller orange shape below the first one */
+.shape-2 {
+    width: 100px;
+    height: 100px;
+    background: #ffae42;
+    top: 150px;
+    right: 50px;
+    border-radius: 0; /* Reset border-radius for a diamond shape */
+    transform: rotate(45deg);
+}
+
+/* Shape 3: Blue-green diamond at the bottom */
+.shape-3 {
+    width: 150px;
+    height: 150px;
+    background: #00796b; /* A deep blue-green color */
+    bottom: -75px;
+    left: -75px;
+    transform: rotate(45deg); /* Creates the diamond shape */
+}
+
+/* Shape 4: Small light blue diamond */
+.shape-4 {
+    width: 40px;
+    height: 40px;
+    background: #4dd0e1; /* A light blue color */
+    bottom: 20px;
+    left: 100px;
+    transform: rotate(45deg);
+}
+
+.card-image-wrapper {
+    position: relative;
+    z-index: 1; /* Ensures the card image is above the shapes */
+    max-width: 80%;
+    padding: 20px;
+}
+
+.debit-card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-details-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+li {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+li::before {
+    content: '•';
+    color: #007bff; /* Blue dot for list items */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.apply-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.apply-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card-details-section {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .apply-btn {
+        align-self: center;
+    }
+}

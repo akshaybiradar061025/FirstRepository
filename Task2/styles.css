@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+.cards-container {
+    display: flex;
+    
+
+}
+
+.card {
+    background-color: #fff;
+    color: #1a2a3b;
+    
+    border-radius: 500px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    
+    
+    
+    
