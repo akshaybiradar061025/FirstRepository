@@ -1,0 +1,83 @@
+
+
+p{
+    color: blue;
+    text-align: center;
+    background-color: aquamarine;
+}
+h1{
+    color: goldenrod;
+    text-align: center;
+    background-color: aqua;
+}
+
+h2{
+    color: aquamarine;
+    text-align: left;
+    background-color: black;
+}
+
+h3{
+    color: blueviolet;
+    text-align: center;
+    background-color: burlywood;
+}
+
+h4{
+    color: brown;
+    text-align: left;
+    background-color: aquamarine;
+}
+
+h5{
+    color: burlywood;
+    text-decoration: underline;
+    text-align: center;
+    background-color: aqua;
+}
+
+h6{
+    color: chartreuse;
+    text-decoration: double;
+    text-align: left;
+    background-color: chocolate;
+}
+
+.center-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    color: blue;
+    background-color: aqua;
+}
+
+td{
+    color: brown;
+    background-color: burlywood;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    display: block;
+    text-align: center;
+}
