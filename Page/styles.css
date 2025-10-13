@@ -1,0 +1,16 @@
+.page{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    
+}
+.page-card{
+    border: 2px solid black;
+    margin: 245px auto;
+    padding: 40px 50px;
+    background-color: bisque;
+}
+body{
+    background-color: antiquewhite;
+}

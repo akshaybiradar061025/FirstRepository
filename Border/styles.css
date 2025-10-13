@@ -4,6 +4,8 @@ p{
     color: blue;
     text-align: center;
     /* background-color: aquamarine; */
+
+
 }
 h1{
     color: goldenrod;
@@ -69,6 +71,7 @@ video{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 400px;
 
 }
 
@@ -86,35 +89,84 @@ a{
 
 .p-section{
     background-color: bisque;
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
     
 
 }
 
 .header-section{
     background-color: cadetblue;
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    border: 2px dotted black;
 
 }
 
 .table-section{
     background-color: bisque;
+    margin: 10px 20px 30px 40px;
+    padding: 10px 20px 30px 40px;
+    border: 2px dashed black;
+
 }
 
 .image-section{
     background-color: aqua;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border-top: 2px solid black;
+    border-right: 2px dotted red;
+    border-bottom: 2px dashed blue;
+    border-left: 2px double green;
     
 }
 
 .video-section{
     background-color: bisque;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border: 2px dashed black;
+
     
 }
 
 .audio-section{
     background-color: aqua;
-    
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border: 2px dotted black;
 }
 
 .anchor-section{
     background-color: burlywood;
-    
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border: 2px solid black;
 }
+
