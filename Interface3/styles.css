@@ -1,0 +1,16 @@
+.account-card{
+    border-radius: 10px;
+    background-color: azure;
+    text-align: center;
+    padding: 6S0px;
+    margin: 260px 240px;
+    border-top: 4px solid;
+    
+}
+.account-card h1{
+    color: darkslateblue;
+}
+
+.account-card p{
+    color: gray;
+}
