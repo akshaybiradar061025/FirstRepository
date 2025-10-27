@@ -1,0 +1,25 @@
+.office-box{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+    gap: 30px;
+    padding: 135px;
+}
+
+.office{
+    width: fit-content;
+}
+
+.office img{
+    border-radius: 10px;
+}
+
+.office p{
+    line-height: 20px;
+}
+
+.office ul li{
+    line-height: 30px;
+    margin-left: -25px;
+}

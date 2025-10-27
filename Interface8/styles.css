@@ -1,0 +1,51 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    gap: 50px;
+    background-color: rgb(247, 245, 241);
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.contact{
+    background-color: rgb(251, 250, 249);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 5px;
+}
+.form input{
+    width: 350px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.button{
+    width: 150px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.main-container i{
+    color: cornflowerblue;
+
+}

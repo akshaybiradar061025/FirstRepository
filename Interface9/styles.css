@@ -1,0 +1,30 @@
+
+.main{
+    margin-top: 150px;
+    
+    
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 20px;
+    
+}
+.child{
+    background-color: rgb(222, 244, 236);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+h3{
+    color: rgb(33, 104, 33);
+}
+h1{
+    color: rgb(33, 104, 33);
+}
+i{
+    color: rgb(33, 104, 33);
+    font-size: 30px;
+}

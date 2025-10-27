@@ -1,0 +1,49 @@
+.home{
+    background-color: antiquewhite;
+    text-align: center;
+    /* padding: 74px; */
+    border-radius: 10px;
+    margin: 70px 0px;
+    display: flex;
+    gap: 20px;
+
+
+}
+.home-loan{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    border-radius: 10px;
+    align-items: center;
+     
+}
+
+
+.home-loan img{
+    height: 100px;
+    width: 200px;
+}
+.home-loan h3{
+    background: linear-gradient(to right,rgb(197, 74, 74),green);
+    border-radius: 5px;
+    
+}
+button{
+    background: linear-gradient(to right,rgb(80, 75, 71),orange);
+    color: white;
+    border: none;
+    padding: 10px 80px;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    
+}
+
