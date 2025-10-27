@@ -1,0 +1,29 @@
+.box1{
+    display: flex;
+    align-items: center;
+    padding: 140px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    gap: 30px;
+
+}
+.box2{
+    width: fit-content;
+    
+    
+    
+}
+.box2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.button1{
+    margin-left: 150px;
+    background-color: deepskyblue;
+    padding: 10px;
+    border-radius: 5px;
+}   
+
+ul li{
+    margin-left: -22px;
+}

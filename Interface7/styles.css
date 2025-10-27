@@ -1,0 +1,40 @@
+body{
+    background-color: azure;
+    border-radius: 10px;
+}
+.parent{
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+.child{
+    background:#e6f3ff ;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 500px;
+}
+.number{
+   position: absolute;
+   bottom: 225px;
+   padding-left: 20px;
+}
+h2{
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    color: cadetblue;
+    font-size: 50px;
+   
+}
+h3{
+    color: cornflowerblue;
+    margin-left: 100px;
+}
+p{
+    color: darkslategray;
+    margin-left: 100px;
+}
+

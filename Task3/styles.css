@@ -11,6 +11,7 @@ body{
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     justify-content: center;
+    margin-top: 150px;
     
 }
 .card{
@@ -19,4 +20,18 @@ body{
     border-radius: 15px;
     padding: 25px;
     background-color: white;
+    border-top: 5px solid rgb(41, 41, 125);
+    
  } 
+ i{
+    margin-left: 20px;
+    color:  rgb(41, 41, 125);
+ }
+ ul li{
+    list-style-type: none;
+    text-indent: -2em;
+ }
+ .card ul li i{
+    color: rgb(57, 207, 57);
+    
+ }
